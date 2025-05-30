@@ -1,6 +1,6 @@
 package com.example.practice;
 
-public class customAtoi {
+public class Q10_CustomAtoi {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

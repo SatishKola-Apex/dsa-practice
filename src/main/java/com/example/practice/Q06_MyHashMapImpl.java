@@ -2,6 +2,29 @@ package com.example.practice;
 
 import java.util.LinkedList;
 
+public class Q06_MyHashMapImpl {
+    public static void main(String[] args) {
+        MyHashMap<String, Integer> map = new MyHashMap<>();
+
+        // Insert key-value pairs
+        map.put("a", 1);
+        map.put("b", 2);
+        map.put("c", 3);
+        map.put("d", 4);
+        
+        // Retrieve values
+        System.out.println("Value for 'a': " + map.get("a")); // Output: 1
+        System.out.println("Value for 'b': " + map.get("b")); // Output: 2
+        
+        // Resize HashMap when load factor exceeds
+        map.put("e", 5);
+        map.put("f", 6);
+        
+        // Output size after resizing
+        System.out.println("Size of HashMap: " + map.size()); // Output: 6
+    }
+}
+
 class MyHashMap<K, V> {
     private static final int INITIAL_CAPACITY = 4;
     private static final double LOAD_FACTOR = 0.75;
@@ -101,25 +124,4 @@ class MyHashMap<K, V> {
     }
 }
 
-public class MyHashMapImpl {
-    public static void main(String[] args) {
-        MyHashMap<String, Integer> map = new MyHashMap<>();
 
-        // Insert key-value pairs
-        map.put("a", 1);
-        map.put("b", 2);
-        map.put("c", 3);
-        map.put("d", 4);
-        
-        // Retrieve values
-        System.out.println("Value for 'a': " + map.get("a")); // Output: 1
-        System.out.println("Value for 'b': " + map.get("b")); // Output: 2
-        
-        // Resize HashMap when load factor exceeds
-        map.put("e", 5);
-        map.put("f", 6);
-        
-        // Output size after resizing
-        System.out.println("Size of HashMap: " + map.size()); // Output: 6
-    }
-}

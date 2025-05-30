@@ -21,6 +21,7 @@ public class CustomPrefixCheck {
 			if(word.charAt(i)!=target.charAt(i)) {
 				isPrefix = false;
 				break;
+//				return false;
 			}
 		}
 		return isPrefix;

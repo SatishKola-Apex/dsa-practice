@@ -26,9 +26,10 @@ public class AnagramGrouper {
 			if(!map.containsKey(key)) {
 				map.put(key, new ArrayList<>());
 			}
-			List<String> arr2 = map.get(key);
-			arr2.add(s);
-			map.put(key, arr2);
+//			List<String> arr2 = map.get(key);
+//			arr2.add(s);
+//			map.put(key, arr2);
+			map.get(key).add(s);
 			*/
 		}
 		return new ArrayList<>(map.values());

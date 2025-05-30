@@ -1,6 +1,6 @@
 package com.example.practice;
 
-public class MedianOfTwoSortedArrays {
+public class Q05_MedianOfTwoSortedArrays {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

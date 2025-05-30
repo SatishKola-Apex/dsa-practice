@@ -19,5 +19,6 @@ public class CharacterCounting {
 			result.append(entry.getKey()).append(entry.getValue());
 		}
 		System.out.println(result);
+//		System.out.println(freqMap);
 	}
 }

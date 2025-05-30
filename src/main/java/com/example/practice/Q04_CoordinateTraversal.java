@@ -2,7 +2,7 @@ package com.example.practice;
 
 import java.util.*;
 
-public class CoordinateTraversal {
+public class Q04_CoordinateTraversal {
 
 	public static int[] finalCoordinates(String directions) {
 		int x = 0, y = 0;

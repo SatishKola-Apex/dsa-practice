@@ -1,6 +1,6 @@
 package com.example.practice;
 
-public class CompressString {
+public class Q01_CompressString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

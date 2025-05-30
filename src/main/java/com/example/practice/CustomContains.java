@@ -17,7 +17,7 @@ public class CustomContains {
 		int longest = 0;
 		String longestWord = "";
 		for(String word:words) {
-			if(isContains(word, toSearch) && word.length()>longest) {
+			if(word.length()>longest && isContains(word, toSearch)) {
 				longest = word.length();
 				longestWord = word;
 			}
@@ -33,7 +33,7 @@ public class CustomContains {
 			return false;
 		}
 		
-		for (int i=0; i<wordLen-targetLen; i++) {
+		for (int i=0; i<wordLen-targetLen+1; i++) {
 			boolean matched = true;
 			for(int j=0; j<targetLen; j++) {
 				if(word.charAt(i+j)!=target.charAt(j)) {

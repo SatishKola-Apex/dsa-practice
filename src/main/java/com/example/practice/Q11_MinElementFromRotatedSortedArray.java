@@ -1,6 +1,6 @@
 package com.example.practice;
 
-public class MinElementFromRotatedSortedArray {
+public class Q11_MinElementFromRotatedSortedArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,6 @@
 package com.example.practice;
 
-public class MinDistanceBtwnWords {
+public class Q09_MinDistanceBtwnWords {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

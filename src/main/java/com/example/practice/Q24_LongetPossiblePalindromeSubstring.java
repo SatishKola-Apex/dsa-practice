@@ -1,6 +1,6 @@
 package com.example.practice;
 
-public class LongetPossiblePalindromeSubstring {
+public class Q24_LongetPossiblePalindromeSubstring {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

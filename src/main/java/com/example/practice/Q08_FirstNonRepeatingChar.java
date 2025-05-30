@@ -2,7 +2,7 @@ package com.example.practice;
 
 import java.util.*;
 
-public class FirstNonRepeatingChar {
+public class Q08_FirstNonRepeatingChar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

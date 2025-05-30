@@ -1,6 +1,6 @@
 package com.example.practice;
 
-public class LongestRepeatingCharBlock {
+public class Q20_LongestRepeatingCharBlock {
 
 	public static void main(String[] args) {
 		System.out.println(longestRepeatingCharBlock("aaaaaabbbbCCdd"));
@@ -25,8 +25,8 @@ public class LongestRepeatingCharBlock {
 				}
 				currentBlock.delete(0, currentBlock.length());
 //				currentBlock.setLength(0);
-				currentBlock.append(str.charAt(i));
 				currentChar = str.charAt(i);
+				currentBlock.append(currentChar);
 			}	
 		}
 		

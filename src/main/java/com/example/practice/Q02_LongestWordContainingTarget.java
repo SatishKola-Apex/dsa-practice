@@ -1,6 +1,6 @@
 package com.example.practice;
 
-public class LongestWordContainingTarget {
+public class Q02_LongestWordContainingTarget {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,6 @@
 package com.example.practice;
 
-public class BinaryTreeInorderTraversal {
+public class Q03_BinaryTreeInorderTraversal {
 	
 	static class TreeNode{
 		int data;

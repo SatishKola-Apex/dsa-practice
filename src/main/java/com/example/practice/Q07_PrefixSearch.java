@@ -1,6 +1,6 @@
 package com.example.practice;
 
-public class PrefixSearch {
+public class Q07_PrefixSearch {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
